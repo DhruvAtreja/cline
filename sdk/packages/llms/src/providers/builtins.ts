@@ -897,7 +897,7 @@ const OPENAI_COMPATIBLE_SPEC_OVERRIDES: BuiltinSpecOverride[] = [
 		family: "openai-compatible",
 		defaultModelId: "deepseek-v4.1-flash-1017-uncensored",
 		apiKeyEnv: ["OPENUNCENSORED_API_KEY"],
-		defaults: { baseUrl: "https://openuncensored.com/api/v1" },
+		defaults: { baseUrl: "https://api.openuncensored.com/v1" },
 	},
 	{
 		id: "litellm",
